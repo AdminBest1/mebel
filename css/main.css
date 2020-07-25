@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff'),
+        url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+        url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #282828;
+    font-size: 16px;
+}
+
+.header {
+    background: #f0f2f8;
+    padding-top: 47px;
+    padding-bottom: 90px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1390px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+}
+
+.logo {
+    width: 84px;
+}
+
+.phone {
+    margin-left: auto;
+}
+
+.phone a {
+    color: #282828;
+    text-decoration: none;
+    
+}
+
+.email {
+    margin-left: 67px;
+}
+
+.email a {
+    color: #282828;
+    text-decoration: none;
+}
+
+.header-content {
+    margin-top: 85px;
+}
+
+.offer {
+    width: 470px;
+    position: absolute;
+    left: 972px;
+    top: 100px;
+}
+
+.offer h1 {
+    font-size: 70px;
+    font-family: 'Times New Roman', serif;
+    font-weight: normal;
+    line-height: 1.05em;
+    margin-bottom: 40px;
+}
+
+.offer p {
+    color: #000;
+    font-size: 18px;
+    width: 355px;
+    line-height: 1.7em;
+    margin-left: 102px;
+}
+
+.btn {
+    color: #e42f44;
+    font-size: 15px;
+    background: none;
+    border: none;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    margin-left: 102px;
+    margin-top: 32px;
+}
+
+.btn .arrow {
+    color: #e42f44;
+    border: 1px solid #e42f44;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+.added {
+    margin-top: 60px;
+}
+
+.add-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    margin-left: auto;
+    display: block;
+    width: 370px;
+}
+
+.add-text:before {
+    content:'';
+    width: 55px;
+    height: 1px;
+    display: block;
+    background: #e42f44;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 7px;
+}
+
+.about-content {
+    margin-top: 49px;
+    padding-top: 46px;
+    background: #fafbfe;
+}
+
+.offer h1 {
+    font-size: 70px;
+    font-family: 'Times New Roman', serif;
+    font-weight: normal;
+    line-height: 1.05em;
+    margin-bottom: 40px;
+}
+.added-about {
+    margin-top: 0px;
+}
+
+.add-text-about {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.add-text-about:before {
+    content:'';
+    width: 55px;
+    height: 1px;
+    display: block;
+    background: #e42f44;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 7px;
+}
+.container {
+    max-width: 1390px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wraper-about {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 0px;
+
+}
+
+h2 {
+    font-size: 70px;
+    font-family: 'Myriad Pro', serif;
+    font-weight: normal;
+    line-height: 1.05em;
+    margin-bottom: 40px;
+    width: 580px;
+    margin-top: 85px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.offer-second {
+    display: inline-block
+    font-size: 14px;
+    line-height: 1.7em;
+    display:inline-block;
+    width: 686px;
+    text-align: left;
+    margin-top: 115px;
+    height: 110px;
+    padding-right: 40px;
+
+}
+
+.offer-second p{
+    width: 550px;
+    padding-left: 610px;
+
+}
+
+.letter{
+      -moz-transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      font-size: 170px;
+      text-align: left;
+      margin-top: 90px;
+      color: #f26677;
+}
+
+.btn-second {
+    color: #e42f44;
+    font-size: 15px;
+    background: none;
+    border: none;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    margin-left: 102px;
+    margin-top: 32px;
+}
+
+.btn-second .arrow-second {
+    color: #e42f44;
+    border: 1px solid #e42f44;
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50%;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+.pic2-2 {
+    width: 470px;
+    position: absolute;
+    left: 1184px;
+    top: 180px;
+}
+
+.letter {
+    width: 470px;
+    position: absolute;
+    left: 70px;
+    top: 486px;
+}
